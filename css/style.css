@@ -1130,6 +1130,7 @@ main {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   background: #F3F1FE;
+  padding-bottom: 25px;
 }
 
 .nash-raboti p {
