@@ -63,7 +63,7 @@
     /* 150% */
 }
 .item a:hover{
-  color: #ec2974;
+  color: $primarycolor;
 }
 .header-hero-title span {
   font-family: Manrope;
@@ -146,7 +146,7 @@
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
-  color: #ec2974;
+  color: $primarycolor;
 }
 
 .dizayn-card-text span {
@@ -239,7 +239,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
-  color: #f32c6d;
+  color: $primarycolor;
 }
 .card-footer {
   display: flex;
@@ -271,7 +271,7 @@
   width: 195px;
   height: 54px;
   border-radius: 9px;
-  background-color: #f32c6d;
+  background-color: $primarycolor;
   color: #ffffff;
   font-family: Manrope;
   font-size: 16px;
