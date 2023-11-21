@@ -1128,6 +1128,7 @@ main {
 }
 
 .nash-raboti p {
+  max-width: 470px;
   color: #333;
   font-family: Manrope;
   font-size: 16px;
