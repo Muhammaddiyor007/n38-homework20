@@ -1,0 +1,145 @@
+.main h1{
+    max-width: 550px;
+    color: #333;
+    font-family: Manrope;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 126.316% */
+    text-transform: uppercase;
+    
+}
+.main p{
+    color: #333;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 22px;
+}
+.konsultatsiya{
+    display: flex;
+    justify-content: space-between;
+    flex: 50%;
+}
+.konsultatsiya-left{
+    width: 50%;
+}
+.regitratsiya{
+    width: 100%;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#name{
+    width: 270px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    border: none;
+    padding: 20px;
+    
+
+    
+}
+#name::placeholder{
+    color: #333;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    
+}
+#tel{
+    width: 270px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    border: none;
+    padding: 20px;
+    margin-left: 30px;
+    
+
+    
+}
+#tel::placeholder{
+    color: #333;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    
+}
+#textarea{
+    width: 570px;
+    height: 141px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background:  #FFF;
+    /* Тень */
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    border: none;
+}
+#textarea::placeholder{
+    color:  #333;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    padding: 16px 20px;
+    
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.checkbox p{
+    margin-top: -20px;
+    margin-left: 12px;
+}
+.chek{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+.btn{
+    border: none;
+    margin-top: 30px;
+}
+.konsultatsiya-right img{
+    width: 100%;
+}
+@media screen and(max-width:1250px) {
+    .konsultatsiya{
+        flex-wrap: wrap;
+    }
+    #tel{
+        margin: 0;
+        margin-top: 20px;
+    }
+    #textarea{
+        width: 400px;
+    }
+}
+.jobs h1{
+    padding-top: 110px;
+    padding-bottom: 40px;
+}

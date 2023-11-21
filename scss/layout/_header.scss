@@ -1,0 +1,313 @@
+.shadow {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 18px 0px #00000014;
+}
+
+.navbar {
+  padding: 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 2rem;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #333333;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 54px;
+  border-radius: 9px;
+  background-color: #ec2974;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.header-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-hero-title {
+  font-family: Manrope;
+  font-size: 45px;
+  font-weight: 700;
+  //   line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.item a{
+  color: #333;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+.item a:hover{
+  color: #ec2974;
+}
+.header-hero-title span {
+  font-family: Manrope;
+  font-size: 55px;
+  font-weight: 500;
+  //   line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header-img {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.header-hero-text {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #333333;
+  margin-top: 14px;
+  text-align: left;
+}
+
+.header-hero-btns {
+  margin-top: 29px;
+  display: flex;
+  gap: 10px;
+}
+
+.header-hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding: 14px 30px;
+  border-radius: 250px;
+  background-color: #77b2d3;
+}
+
+.dizayn {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin-bottom: 76px;
+  padding: 40px;
+}
+
+.dizayn-title {
+  font-family: Manrope;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.dizayn-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.dizayn-card-text {
+  display: flex;
+  flex-direction: column;
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ec2974;
+}
+
+.dizayn-card-text span {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.card-title {
+  font-family: Manrope;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 41px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.card-top {
+  width: 220px;
+  height: 378px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 18px 0px #00000014;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 74px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #77b2d3;
+  margin-bottom: 18px;
+}
+
+.card-header-title {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  width: 116px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 84px;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 16px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-price {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f32c6d;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.card-price span {
+  font-family: "Manrope";
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-bottom a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 195px;
+  height: 54px;
+  border-radius: 9px;
+  background-color: #f32c6d;
+  color: #ffffff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media screen and(max-width:1250px) {
+  .cards{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+ .header-hero{
+  flex-wrap: wrap;
+ } 
+}
+@media screen and (max-width:850px) {
+  .dizayn-cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+@media screen and (max-width:650px) {
+  .item a{
+    font-size: 10px;
+  }
+  .btn{
+    width: 65px;
+    height: 27px;
+    font-size: 8px;
+  }
+  .header-img{
+    width: 400px;
+  }
+}
