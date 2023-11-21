@@ -1110,6 +1110,13 @@ main {
   }
 }
 
+.jobs {
+  max-width: 100%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
 .jobs h1 {
   padding-top: 110px;
   padding-bottom: 40px;
@@ -1125,7 +1132,7 @@ main {
 }
 
 .center {
-  width: 100%;
+  width: 105%;
   height: 161px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -1146,21 +1153,25 @@ main {
 
 .nash-raboti-left {
   background-color: #FFF;
-  padding: 0 20 0 20px;
+  padding: 50px 50px 50px 50px;
+  border-radius: 10px;
 }
 
 .nash-raboti-right {
   background-color: #FFF;
+  padding: 50px 50px 50px 50px;
+  border-radius: 10px;
 }
 
 .rezultat {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 10px;
 }
 
 .rezultat h3 {
-  width: 180px;
+  max-width: 180px;
   color: #333;
   font-family: Manrope;
   font-size: 16px;
@@ -1169,7 +1180,7 @@ main {
 }
 
 .rezultat p {
-  width: 180px;
+  max-width: 180px;
   color: #333;
   font-family: Manrope;
   font-size: 16px;
@@ -1188,10 +1199,36 @@ main {
   line-height: 26px;
 }
 
-.center h2 {
+.nash-raboti h2 {
   padding-top: 21px;
 }
 
-.nash-raboti-right img {
+.center__img {
   margin-top: 50px;
+}
+
+main {
+  padding-bottom: 90px;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 13px;
+}
+
+@media screen and (max-width: 1150px) {
+  .nash-raboti {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+  .rezultat {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .center {
+    height: auto;
+  }
 }
