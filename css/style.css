@@ -1164,6 +1164,7 @@ main {
 
 .btn {
   border: none;
+  cursor: pointer;
 }
 
 .konsultatsiya-right img {
